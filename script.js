@@ -18,5 +18,6 @@ function minCostToFormRope(event) {
 		arr.push(res);
 		arr.sort((a, b) => (a-b));
 	}
+	// cost will show below input
 	document.getElementById("result").textContent = cost;
 }
